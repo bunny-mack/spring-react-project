@@ -89,12 +89,15 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.searchbar {
+
+.searchIcon {
   margin: 20%;
-  /* margin-bottom: 50; */
-  /* margin-top: 0%; */
-  /* justify-content: center; */
-  /* float: middle; */
   margin-left: 75%;
+  position: fixed;
+}
+
+.searchBox {
+  margin: 20%;
+  margin-left: 50%;
   position: fixed;
 }

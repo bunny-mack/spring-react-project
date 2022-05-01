@@ -5,9 +5,16 @@ import * as FaIcons from 'react-icons/fa';
 
 function Searchbar(props) {
     return (
-      <nav className="searchbar">
-        <FaIcons.FaSearch />
-      </nav>
+
+        <div className="searchbar">
+            <div className="searchBox"><input type="text" placeholder="Search Reviews" /></div>
+            
+            <div className="searchIcon" input type="submit" 
+            onClick={()=> {window.location.pathname = "/results";}}>
+                <FaIcons.FaSearch />
+                </div>
+
+        </div>
 
     );
   }
